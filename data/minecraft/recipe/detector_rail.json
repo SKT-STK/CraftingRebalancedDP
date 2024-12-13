@@ -12,7 +12,7 @@
     "@": "minecraft:iron_ingot"
   },
   "result": {
-    "id": "minecraft:powered_rail",
+    "id": "minecraft:detector_rail",
     "count": 16
   }
 }
