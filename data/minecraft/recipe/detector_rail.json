@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "@ @",
+    "@#@",
+    "@$@"
+  ],
+  "key": {
+    "#": "#crdp:unweighted_pressure_plates",
+    "$": "minecraft:redstone",
+    "@": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:powered_rail",
+    "count": 16
+  }
+}

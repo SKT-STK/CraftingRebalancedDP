@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "@$@",
+    "@#@",
+    "@$@"
+  ],
+  "key": {
+    "#": "minecraft:redstone_torch",
+    "$": "minecraft:stick",
+    "@": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:powered_rail",
+    "count": 16
+  }
+}

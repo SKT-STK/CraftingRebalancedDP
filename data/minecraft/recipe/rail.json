@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "@ @",
+    "@#@",
+    "@ @"
+  ],
+  "key": {
+    "#": "minecraft:stick",
+    "@": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:rail",
+    "count": 32
+  }
+}
