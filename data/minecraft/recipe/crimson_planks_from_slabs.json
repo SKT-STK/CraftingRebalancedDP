@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "wooden_slab",
+    "key": {
+        "#": "minecraft:crimson_slab"
+    },
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:crimson_planks"
+    }
+}

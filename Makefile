@@ -1,3 +1,3 @@
 run:
-	python signs_generator.py
+	python slabs_generator.py
 	
