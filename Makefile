@@ -1,3 +1,3 @@
 run:
-	python stairs_generator.py
+	python signs_generator.py
 	
