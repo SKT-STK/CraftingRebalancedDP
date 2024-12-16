@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:block",
+    "random_sequence": "minecraft:blocks/pale_oak_sign",
+    "functions": [
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:max_stack_size": 64
+            }
+        }
+    ],
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_sign"
+                }
+            ]
+        }
+    ]
+}
