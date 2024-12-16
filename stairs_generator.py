@@ -12,7 +12,7 @@ for filename in os.listdir(DIR_PATH):
       stairs.append(dict(filename = filename, recipe = json.load(file)))
 
 for stair in stairs:
-  stair['recipe']['result']['count'] = 8
+  stair['recipe']['result']['count'] = 7
   
   with open(os.path.join(OUT_PATH, stair['filename']), 'w') as file:
     json.dump(stair['recipe'], file, indent = 4)
