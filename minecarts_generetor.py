@@ -2,7 +2,7 @@ import json
 import os
 
 DIR_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\.fabric\remappedJars\minecraft-1.21.3-0.16.9\client-intermediary\data\minecraft\recipe'
-OUT_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\saves\crafting_rebalanced_dp\datapacks\CraftingRebalancedDP\data\crdp\recipe'
+OUT_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\saves\crafting_rebalanced_dp\datapacks\CraftingRebalancedDP\data\minecraft\recipe'
 
 slabs = []
 
@@ -20,6 +20,8 @@ for slab in slabs:
     key = keys[0]
   else:
     key = keys
+    
+  print(key)
 
   slab['recipe']['result']['id'] = key
   slab['recipe']['result']['count'] = 1
