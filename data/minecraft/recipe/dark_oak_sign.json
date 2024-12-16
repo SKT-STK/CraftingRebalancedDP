@@ -13,6 +13,9 @@
     ],
     "result": {
         "count": 6,
-        "id": "minecraft:dark_oak_sign"
+        "id": "minecraft:dark_oak_sign",
+        "components": {
+            "minecraft:max_stack_size": 64
+        }
     }
 }

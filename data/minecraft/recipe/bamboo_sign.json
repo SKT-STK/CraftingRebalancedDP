@@ -13,6 +13,9 @@
     ],
     "result": {
         "count": 6,
-        "id": "minecraft:bamboo_sign"
+        "id": "minecraft:bamboo_sign",
+        "components": {
+            "minecraft:max_stack_size": 64
+        }
     }
 }

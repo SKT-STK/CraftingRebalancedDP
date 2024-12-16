@@ -13,6 +13,9 @@
     ],
     "result": {
         "count": 6,
-        "id": "minecraft:jungle_sign"
+        "id": "minecraft:jungle_sign",
+        "components": {
+            "minecraft:max_stack_size": 64
+        }
     }
 }

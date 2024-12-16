@@ -13,6 +13,9 @@
     ],
     "result": {
         "count": 6,
-        "id": "minecraft:spruce_sign"
+        "id": "minecraft:spruce_sign",
+        "components": {
+            "minecraft:max_stack_size": 64
+        }
     }
 }

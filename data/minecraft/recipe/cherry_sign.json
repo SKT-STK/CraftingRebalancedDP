@@ -13,6 +13,9 @@
     ],
     "result": {
         "count": 6,
-        "id": "minecraft:cherry_sign"
+        "id": "minecraft:cherry_sign",
+        "components": {
+            "minecraft:max_stack_size": 64
+        }
     }
 }

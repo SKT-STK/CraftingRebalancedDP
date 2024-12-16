@@ -19,5 +19,9 @@ for h_sign in [s for s in signs if '_hanging_' in s['filename']]:
 for sign in signs:
   sign['recipe']['result']['count'] = 6
   
+  if 'components' not in sign['recipe']['result']:
+    sign['recipe']['result']['components'] = {}
+  sign['recipe']['result']['components']['minecraft:max_stack_size'] = 64
+  
   with open(os.path.join(OUT_PATH, sign['filename']), 'w') as file:
     json.dump(sign['recipe'], file, indent = 4)
