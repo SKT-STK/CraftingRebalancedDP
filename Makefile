@@ -1,3 +1,3 @@
 run:
-	python minecarts_generator.py
+	python scripts/slabs_generator.py
 	
