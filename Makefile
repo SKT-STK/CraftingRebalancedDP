@@ -1,3 +1,3 @@
 run:
-	python slabs_generator.py
+	python minecarts_generator.py
 	

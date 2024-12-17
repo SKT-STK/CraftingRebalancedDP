@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "crafted_from_minecart": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "crdp:from_chest_minecart"
+            }
+        }
+    },
+    "rewards": {
+        "function": "crdp:crafting/chest_minecart"
+    }
+}

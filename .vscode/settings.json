@@ -4,7 +4,12 @@
     "Datapack",
     "datapacks",
     "jsons",
+    "mcfunction",
+    "minecart",
+    "minecarts",
     "Modrinth",
-    "tellraw"
+    "tellraw",
+    "uncraft",
+    "uncrafting"
   ]
 }
