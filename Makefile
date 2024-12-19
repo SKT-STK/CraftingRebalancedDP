@@ -1,3 +1,3 @@
 run:
-	python scripts/slabs_generator.py
+	python scripts/stripped_logs_generator.py
 	
