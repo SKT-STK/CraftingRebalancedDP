@@ -1,3 +1,3 @@
 run:
-	python scripts/stripped_logs_generator.py
+	python scripts/trap_doors_generator.py
 	
