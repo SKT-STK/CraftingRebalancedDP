@@ -1,2 +1,2 @@
 advancement revoke @s only crdp:crafting/undispenser
-give @s minecraft:bow[damage=192] 1
+loot give @s loot crdp:command/random_damage_bow
