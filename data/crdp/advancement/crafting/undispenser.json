@@ -1,0 +1,13 @@
+{
+  "criteria": {
+      "crafted_from_minecart": {
+          "trigger": "minecraft:recipe_crafted",
+          "conditions": {
+              "recipe_id": "crdp:undispenser"
+          }
+      }
+  },
+  "rewards": {
+      "function": "crdp:crafting/undispenser"
+  }
+}
