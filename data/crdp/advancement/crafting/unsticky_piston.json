@@ -1,13 +1,13 @@
 {
   "criteria": {
-      "crafted_undispenser": {
+      "crafted_unsticky_piston": {
           "trigger": "minecraft:recipe_crafted",
           "conditions": {
-              "recipe_id": "crdp:undispenser"
+              "recipe_id": "crdp:unsticky_piston"
           }
       }
   },
   "rewards": {
-      "function": "crdp:crafting/undispenser"
+      "function": "crdp:crafting/unsticky_piston"
   }
 }
