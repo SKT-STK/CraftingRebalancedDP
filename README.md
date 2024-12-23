@@ -9,4 +9,5 @@ now you can uncraft minecarts (eg. as in from a chest minecart to a chest and a 
 now you can get back the normal log after stripping it by crafting 4 of them in a grid (you will only get 3),
 trapdoors craftings now yield 4 instead of 2,
 you can now undispense your dispenser yielding you both a dropper and a randomly-damaged bow (due to the limitations of the game's datapack crafting mechanisms, the bow will be /give'n to the player after they have collected the other item from the crafting bench),
-you can now dispenserize you droppers (combine a dropper with a bow to get a dispenser)
+you can now dispenserize you droppers (combine a dropper with a bow to get a dispenser),
+every recipe that accepted cobblestone now accepts all variants of cobblestone (cobblestone, cobbled_deepslate, blackstone) instead of just vanilla-chosen recipes having such behavior

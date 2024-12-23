@@ -1,3 +1,2 @@
 run:
-	python scripts/trap_doors_generator.py
-	
+	python scripts/cobblestones_generator.py
