@@ -1,2 +1,2 @@
 run:
-	python scripts/cobblestones_generator.py
+	python scripts/gates_generator.py
