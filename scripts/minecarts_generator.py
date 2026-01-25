@@ -1,10 +1,17 @@
 import json
 import os
+from dotenv import load_dotenv
 
-DIR_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\.fabric\remappedJars\minecraft-1.21.3-0.16.9\client-intermediary\data\minecraft\recipe'
-RECIPE_OUT_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\saves\crafting_rebalanced_dp\datapacks\CraftingRebalancedDP\data\crdp\recipe'
-FUNCTION_OUT_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\saves\crafting_rebalanced_dp\datapacks\CraftingRebalancedDP\data\crdp\function\crafting'
-ADVANCEMENT_OUT_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\saves\crafting_rebalanced_dp\datapacks\CraftingRebalancedDP\data\crdp\advancement\crafting'
+load_dotenv()
+
+DIR_PATH = os.getenv('DIR_PATH')
+RECIPE_OUT_PATH = os.getenv('CUSTOM_OUT_PATH')
+FUNCTION_OUT_PATH = os.getenv('FUNCTION_OUT')
+ADVANCEMENT_OUT_PATH = os.getenv('ADVANCEMENT_OUT')
+
+if DIR_PATH == None or RECIPE_OUT_PATH == None or FUNCTION_OUT_PATH == None or ADVANCEMENT_OUT_PATH == None:
+  print('.env error!')
+  exit()
 
 minecarts = []
 

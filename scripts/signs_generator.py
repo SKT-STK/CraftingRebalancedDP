@@ -1,10 +1,17 @@
 import json
 import os
+from dotenv import load_dotenv
 
-CRAFTING_DIR_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\.fabric\remappedJars\minecraft-1.21.3-0.16.9\client-intermediary\data\minecraft\recipe'
-CRAFTING_OUT_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\saves\crafting_rebalanced_dp\datapacks\CraftingRebalancedDP\data\minecraft\recipe'
-LOOT_TABLE_DIR_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\.fabric\remappedJars\minecraft-1.21.3-0.16.9\client-intermediary\data\minecraft\loot_table\blocks'
-LOOT_TABLE_OUT_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\saves\crafting_rebalanced_dp\datapacks\CraftingRebalancedDP\data\minecraft\loot_table\blocks'
+load_dotenv()
+
+CRAFTING_DIR_PATH = os.getenv('DIR_PATH')
+CRAFTING_OUT_PATH = os.getenv('VANILLA_OUT_PATH')
+LOOT_TABLE_DIR_PATH = os.getenv('LOOT_TABLE_DIR_PATH')
+LOOT_TABLE_OUT_PATH = os.getenv('LOOT_TABLE_OUT_PATH')
+
+if CRAFTING_DIR_PATH == None or CRAFTING_OUT_PATH == None or LOOT_TABLE_DIR_PATH == None or LOOT_TABLE_OUT_PATH == None:
+  print('.env error!')
+  exit()
 
 signs = []
 

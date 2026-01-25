@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "category": "building",
-    "group": "waxed_weathered_cut_copper_chiseled",
+    "group": "waxed_weathered_chiseled_copper",
     "key": {
-        "#": "minecraft:waxed_weathered_cut_copper"
+        "M": "minecraft:waxed_weathered_cut_copper"
     },
     "pattern": [
         "###",

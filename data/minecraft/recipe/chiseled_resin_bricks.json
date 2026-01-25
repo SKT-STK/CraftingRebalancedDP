@@ -1,9 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "category": "building",
-    "group": "waxed_oxidized_chiseled_copper",
     "key": {
-        "M": "minecraft:waxed_oxidized_cut_copper"
+        "#": "minecraft:resin_brick"
     },
     "pattern": [
         "###",
@@ -12,6 +11,6 @@
     ],
     "result": {
         "count": 9,
-        "id": "minecraft:waxed_oxidized_chiseled_copper"
+        "id": "minecraft:chiseled_resin_bricks"
     }
 }

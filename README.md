@@ -13,4 +13,10 @@ you can now undispense your dispenser yielding you both a dropper and a randomly
 you can now dispenserize you droppers (combine a dropper with a bow to get a dispenser),  
 every recipe that accepted cobblestone now accepts all variants of cobblestone (cobblestone, cobbled_deepslate, blackstone) instead of just vanilla-chosen recipes having such behavior,  
 you can now unstick your pistons (same as undispensing a dispenser),  
-fence gate crafting now yields 2 gates instead of one
+fence gate crafting now yields 2 gates instead of one  
+
+
+(1.21.11)  
+
+
+[.env must define: DIR_PATH(path to an unzipped copy of the minecraft .jar {data/minecraft/recipe}), VANILLA_OUT_PATH(./data/minecraft/recipe), CUSTOM_OUT_PATH(./data/crdp/recipe), FUNCTION_OUT(./data/crdp/function/crafting), ADVANCEMENT_OUT(./data/crdp/advancement/crafting), LOOT_TABLE_DIR_PATH(path to an unzipped copy of the minecraft .jar {data/minecraft/loot_table/blocks}), LOOT_TABLE_OUT_PATH(./data/minecraft/loot_table/blocks)]  

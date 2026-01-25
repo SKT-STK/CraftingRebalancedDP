@@ -1,8 +1,15 @@
 import json
 import os
+from dotenv import load_dotenv
 
-DIR_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\.fabric\remappedJars\minecraft-1.21.3-0.16.9\client-intermediary\data\minecraft\recipe'
-OUT_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\saves\crafting_rebalanced_dp\datapacks\CraftingRebalancedDP\data\minecraft\recipe'
+load_dotenv()
+
+DIR_PATH = os.getenv('DIR_PATH')
+OUT_PATH = os.getenv('VANILLA_OUT_PATH')
+
+if DIR_PATH == None or OUT_PATH == None:
+  print('.env error!')
+  exit()
 
 stairs = []
 

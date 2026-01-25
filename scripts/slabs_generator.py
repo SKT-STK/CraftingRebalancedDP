@@ -1,9 +1,16 @@
 import json
 import os
+from dotenv import load_dotenv
 
-DIR_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\.fabric\remappedJars\minecraft-1.21.3-0.16.9\client-intermediary\data\minecraft\recipe'
-CRDP_OUT_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\saves\crafting_rebalanced_dp\datapacks\CraftingRebalancedDP\data\crdp\recipe'
-VANILLA_OUT_PATH = r'D:\Games\Minecraft\ModrinthApp\profiles\NIGGER\saves\crafting_rebalanced_dp\datapacks\CraftingRebalancedDP\data\minecraft\recipe'
+load_dotenv()
+
+DIR_PATH = os.getenv('DIR_PATH')
+CRDP_OUT_PATH = os.getenv('CUSTOM_OUT_PATH')
+VANILLA_OUT_PATH = os.getenv('VANILLA_OUT_PATH')
+
+if DIR_PATH == None or CRDP_OUT_PATH == None or VANILLA_OUT_PATH == None:
+  print('.env error!')
+  exit()
 
 slabs = []
 
@@ -41,9 +48,14 @@ for filename in os.listdir(DIR_PATH):
       chiseled.append(dict(filename = filename, recipe = json.load(file)))
       
 for recipe in chiseled:
-  recipe['recipe']['key']['#'] = recipe['recipe']['key']['#'].replace('_slab', '')
-  if recipe['recipe']['key']['#'] == 'minecraft:stone_brick':
-    recipe['recipe']['key']['#'] = 'minecraft:stone_bricks'
+  try:
+    recipe['recipe']['key']['#'] = recipe['recipe']['key']['#'].replace('_slab', '')
+    if recipe['recipe']['key']['#'] == 'minecraft:stone_brick':
+      recipe['recipe']['key']['#'] = 'minecraft:stone_bricks'
+  except KeyError:
+    recipe['recipe']['key']['M'] = recipe['recipe']['key']['M'].replace('_slab', '')
+    if recipe['recipe']['key']['M'] == 'minecraft:stone_brick':
+      recipe['recipe']['key']['M'] = 'minecraft:stone_bricks'
     
   recipe['recipe']['pattern'] = ['###', '###', '###']
   recipe['recipe']['result']['count'] = 9

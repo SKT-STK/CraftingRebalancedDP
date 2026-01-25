@@ -1,15 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "category": "redstone",
+    "group": "wooden_trapdoor",
     "key": {
-        "#": "minecraft:copper_ingot"
+        "#": "minecraft:pale_oak_planks"
     },
     "pattern": [
-        "##",
-        "##"
+        "###",
+        "###"
     ],
     "result": {
         "count": 4,
-        "id": "minecraft:copper_trapdoor"
+        "id": "minecraft:pale_oak_trapdoor"
     }
 }
