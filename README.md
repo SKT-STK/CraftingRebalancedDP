@@ -14,7 +14,8 @@ you can now dispenserize you droppers (combine a dropper with a bow to get a dis
 every recipe that accepted cobblestone now accepts all variants of cobblestone (cobblestone, cobbled_deepslate, blackstone) instead of just vanilla-chosen recipes having such behavior,  
 you can now unstick your pistons (same as undispensing a dispenser),  
 fence gate crafting now yields 2 gates instead of one,  
-you can now unpack your ice and blue ice (1 blue ice yields 9 packed and 1 packed 9 regular)  
+you can now unpack your ice and blue ice (1 blue ice yields 9 packed and 1 packed 9 regular),  
+you can now uncraft prismarine blocks into 4 prismarine shards  
 
 
 (1.21.11)  

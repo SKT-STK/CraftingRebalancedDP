@@ -1,0 +1,10 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    "prismarine"
+  ],
+  "result": {
+    "id": "prismarine_shard",
+    "count": 4
+  }
+}
