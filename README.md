@@ -15,7 +15,8 @@ every recipe that accepted cobblestone now accepts all variants of cobblestone (
 you can now unstick your pistons (same as undispensing a dispenser),  
 fence gate crafting now yields 2 gates instead of one,  
 you can now unpack your ice and blue ice (1 blue ice yields 9 packed and 1 packed 9 regular),  
-you can now uncraft prismarine blocks into 4 prismarine shards and prismarine bricks into 9 shards  
+you can now uncraft prismarine blocks into 4 prismarine shards and prismarine bricks into 9 shards,  
+dyes' craftings now yield 2 instead of 1  
 
 
 (1.21.11)  
